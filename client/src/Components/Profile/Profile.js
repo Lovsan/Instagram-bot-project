@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Profile.css';
 import Follow from '../Freindship/Follow';
-import Unfollow from '../Freindship/Unfollow';
 class Profile extends Component
 {
     constructor(props)
@@ -128,16 +127,16 @@ class Profile extends Component
             </div>
             <br />
         </div>
-            <div class="ffwrapper">
-                <div class="followengine" style={{overflow:'scroll', height:'400px'}}>
-                    <div class="nav-card">
-                        <h2>Freindship Activity</h2>
-                        <a class="btn-getted" href="" onClick={this.handleClick}> Get followings </a>
+             <div class="ffwrapper">
+                 <div class="followengine" style={{overflow:'scroll', height:'400px'}}>
+                         <div class="nav-card">
+                         <h2>Friendship Activity</h2>
+                         <a class="btn-getted" href="" onClick={this.handleClick}> Get followings </a>
                     </div>
                    {users}
                 </div>
-            </div>
-        
+             </div>
+         
 
 
 

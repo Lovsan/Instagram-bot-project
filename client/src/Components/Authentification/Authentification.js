@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './instaAuth.css';
 import Profile from '../Profile/Profile';
+import BotManager from '../BotManager/BotManager';
 
 class Authentification extends Component {
   constructor(propos){
@@ -170,6 +171,9 @@ class Authentification extends Component {
               </div>
             </div>
           </div>}
+      </div>
+      <div className="bot-manager-wrapper">
+        <BotManager />
       </div>
     </div>
   </div>
